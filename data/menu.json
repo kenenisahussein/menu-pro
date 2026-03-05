@@ -1,33 +1,29 @@
 [
 {
-"name":"Espresso",
-"description":"Strong coffee shot",
-"price":2,
-"category":"coffee",
-"image":"images/espresso.jpg"
+"name":"Cappuccino",
+"description":"Fresh Italian coffee",
+"price":4,
+"category":"drinks"
 },
 
 {
 "name":"Orange Juice",
-"description":"Fresh juice",
-"price":3,
-"category":"juice",
-"image":"images/orange.jpg"
-},
-
-{
-"name":"Pizza",
-"description":"Cheese pizza",
-"price":8,
-"category":"pizza",
-"image":"images/pizza.jpg"
+"description":"Natural juice",
+"price":5,
+"category":"juice"
 },
 
 {
 "name":"Chocolate Cake",
-"description":"Dessert cake",
-"price":4,
-"category":"dessert",
-"image":"images/cake.jpg"
+"description":"Sweet dessert",
+"price":6,
+"category":"dessert"
+},
+
+{
+"name":"Pepperoni Pizza",
+"description":"Hot delicious pizza",
+"price":10,
+"category":"pizza"
 }
 ]
