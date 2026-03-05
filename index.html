@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Cafe Menu</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">☕ Cafe</div>
+
+        <div class="controls">
+
+            <select id="language">
+                <option value="en">English</option>
+                <option value="am">አማርኛ</option>
+                <option value="om">Afaan Oromo</option>
+            </select>
+
+            <input id="search" placeholder="Search menu">
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+
+        <h1 id="title">Welcome To Our Cafe</h1>
+        <p id="subtitle">Fresh Coffee • Delicious Food</p>
+
+    </section>
+
+    <section class="filters">
+
+        <button onclick="filterMenu('all')">All</button>
+        <button onclick="filterMenu('coffee')">Coffee</button>
+        <button onclick="filterMenu('juice')">Juice</button>
+        <button onclick="filterMenu('pizza')">Pizza</button>
+        <button onclick="filterMenu('dessert')">Dessert</button>
+
+    </section>
+
+    <section id="menuContainer" class="menu-grid"></section>
+
+    <footer>
+
+        <p>© 2026 Cafe Menu</p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
